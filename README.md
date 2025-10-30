@@ -11,6 +11,7 @@ Repositori ini dikembangkan dengan pendekatan hands-on & documentation-driven le
 - Troubleshooting Scenarios berdasarkan studi kasus enterprise
 - Configuration Backup & Review Metrics
 
+``
 📁 Repository Structure
 📦 CCNP_Workbook_Project/
 ├── CCNP_ENCOR/
@@ -42,6 +43,7 @@ Repositori ini dikembangkan dengan pendekatan hands-on & documentation-driven le
 │
 ├── 📄 README.md (this file)
 └── 🗂️ .gitignore / LICENSE / metadata
+``
 
 🧩 Learning Methodology
 Step	Aktivitas	Deskripsi
