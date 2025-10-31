@@ -45,6 +45,7 @@ Repositori ini dikembangkan dengan pendekatan hands-on & documentation-driven le
 └── 🗂️ .gitignore / LICENSE / metadata
 ```
 
+```
 🧩 Learning Methodology
 Step	Aktivitas	Deskripsi
 1️⃣	Learning & Quiz	Selesaikan teori dari NetAcad dan tandai konsep yang relevan untuk lab.
@@ -53,6 +54,7 @@ Step	Aktivitas	Deskripsi
 4️⃣	Testing & Verification	Jalankan ping, traceroute, debug, dan verifikasi routing table atau OSPF/EIGRP database.
 5️⃣	Documentation	Catat semua hasil di file README.md tiap modul (log konfigurasi, hasil, error, solusi).
 6️⃣	Archiving	Upload hasil akhir ke GitHub (tanpa file proprietary Cisco), hanya dokumentasi & topology.
+
 ⚙️ Tools & Environment
 Komponen	Keterangan
 Network Simulator	PNETLab / EVE-NG / GNS3
@@ -60,8 +62,8 @@ Editor & Repo	VS Code + GitHub
 OS Base	Ubuntu / Debian minimal build (CIS hardened optional)
 Device Images	Cisco IOSv, IOS-XE, CSR1000v, L3 Switch vIOS-L2
 Automation Tools (ENCOR)	Python 3.x, Postman, RESTCONF, NETCONF, Ansible
-🧠 Skill Outcome
 
+🧠 Skill Outcome
 Setelah menyelesaikan proyek ini, peserta akan menguasai:
 
 ✅ Implementasi IPv4/IPv6 Routing, EIGRP, OSPF, BGP, MPLS, DMVPN, Redistribution
@@ -75,7 +77,6 @@ Setelah menyelesaikan proyek ini, peserta akan menguasai:
 ✅ Kesiapan penuh untuk ujian CCNP ENCOR (350-401) & ENARSI (300-410)
 
 🧾 Notes
-
 Semua lab yang berasal dari Cisco NetAcad tetap berada dalam konteks pembelajaran resmi dan tidak untuk disebarluaskan dalam bentuk materi asli (PDF, quiz, atau konfigurasi tertutup).
 Repositori ini hanya berisi rekonstruksi topologi, dokumentasi hasil konfigurasi, dan catatan pembelajaran pribadi.
 
@@ -103,3 +104,4 @@ Learning Source :
 
 This repository is licensed under the MIT License.
 Educational use only — no commercial redistribution of Cisco official content.
+```
