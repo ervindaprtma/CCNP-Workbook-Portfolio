@@ -15,15 +15,15 @@ Repositori ini dikembangkan dengan pendekatan hands-on & documentation-driven le
 📁 Repository Structure
 📦 CCNP_Workbook_Project/
 ├── CCNP_ENCOR/
-│   ├── Module 1 - Architecture, Virtualization, and Infrastructure/
+│   ├── Module 1 - Packet Forwarding/
 │   │   ├── Official_Lab/
 │   │   ├── Lab_Topology/
 │   │   ├── Configuration_Files/
 │   │   ├── Testing/
 │   │   └── README.md
-│   ├── Module 2 - Network Assurance/
-│   ├── Module 3 - Security Fundamentals/
-│   ├── Module 4 - Automation and Programmability/
+│   ├── Module 2 - Spanning Tree Protocol/
+│   ├── Module 3 - Advanced Spanning Tree/
+│   ├── Module 4 - Multiple Spanning Tree Protocol/
 |   ├── ...
 |   ├── Module 29 - Introduction to Automation Tools
 │   └── Bonus_Superlab/
@@ -38,7 +38,7 @@ Repositori ini dikembangkan dengan pendekatan hands-on & documentation-driven le
 │   ├── Module 2 - EIGRP/
 │   ├── Module 3 - Advanced EIGRP/
 │   ├── ...
-│   ├── Module 23 - Device Management and Troubleshooting/
+│   ├── Module 23 - Device Management and Management Tools Troubleshooting/
 │   └── Bonus_Superlab/
 │
 ├── 📄 README.md (this file)
@@ -54,27 +54,25 @@ Step	Aktivitas	Deskripsi
 4️⃣	Testing & Verification	Jalankan ping, traceroute, debug, dan verifikasi routing table atau OSPF/EIGRP database.
 5️⃣	Documentation	Catat semua hasil di file README.md tiap modul (log konfigurasi, hasil, error, solusi).
 6️⃣	Archiving	Upload hasil akhir ke GitHub (tanpa file proprietary Cisco), hanya dokumentasi & topology.
+```
 
 ⚙️ Tools & Environment
-Komponen	Keterangan
-Network Simulator	PNETLab / EVE-NG / GNS3
-Editor & Repo	VS Code + GitHub
-OS Base	Ubuntu / Debian minimal build (CIS hardened optional)
-Device Images	Cisco IOSv, IOS-XE, CSR1000v, L3 Switch vIOS-L2
-Automation Tools (ENCOR)	Python 3.x, Postman, RESTCONF, NETCONF, Ansible
+- Komponen	Keterangan
+- Network Simulator	PNETLab / EVE-NG / GNS3
+- Editor & Repo	VS Code + GitHub
+- OS Base	Ubuntu / Debian minimal build (CIS hardened optional)
+- Device Images	Cisco IOSv, IOS-XE, CSR1000v, L3 Switch vIOS-L2
+- Automation Tools (ENCOR)	Python 3.x, Postman, RESTCONF, NETCONF, Ansible
 
+```
 🧠 Skill Outcome
-Setelah menyelesaikan proyek ini, peserta akan menguasai:
-
+Setelah menyelesaikan proyek ini, peserta akan menguasai :
 ✅ Implementasi IPv4/IPv6 Routing, EIGRP, OSPF, BGP, MPLS, DMVPN, Redistribution
-
 ✅ Troubleshooting & Verification tingkat enterprise
-
 ✅ Security Control pada edge dan overlay network
-
 ✅ Documentation & Change Control Practice
-
 ✅ Kesiapan penuh untuk ujian CCNP ENCOR (350-401) & ENARSI (300-410)
+```
 
 🧾 Notes
 Semua lab yang berasal dari Cisco NetAcad tetap berada dalam konteks pembelajaran resmi dan tidak untuk disebarluaskan dalam bentuk materi asli (PDF, quiz, atau konfigurasi tertutup).
@@ -82,14 +80,14 @@ Repositori ini hanya berisi rekonstruksi topologi, dokumentasi hasil konfigurasi
 
 🏁 Progress Tracking
 Modul	Status	Catatan
-ENCOR - Module 1	🔄 In Progress	NetAcad Practical + Custom Lab
+ENCOR - Module 1	✅ Done	NetAcad Practical + Custom Lab
 ENCOR - Module 2	⏳ Pending	Akan mulai setelah review MPLS TE
-ENARSI - Module 1	✅ Done	IPv6 & Routing Review
+ENARSI - Module 1	🔄 In Progress	IPv6 & Routing Review
 ENARSI - Module 2	🔄 In Progress	EIGRP basic lab completed
 ...	...	...
 
 🧭 Author & Reference
-Author: Ervinda Pratama
+Author : Ervinda Pratama
 
 Learning Source :
 - Cisco Networking Academy — ENCOR & ENARSI Course
@@ -101,7 +99,5 @@ Learning Source :
 - Buku ID-Networkers — Teori & Konsep OSPF
 
 🧩 License
-
 This repository is licensed under the MIT License.
 Educational use only — no commercial redistribution of Cisco official content.
-```
